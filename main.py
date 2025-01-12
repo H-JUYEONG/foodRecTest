@@ -36,7 +36,7 @@ chat_prompt = ChatPromptTemplate.from_messages([system_message_prompt, human_mes
 
 # LLMChain 구성
 chat_chain = LLMChain(
-    llm=ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="gpt-4"),
+    llm=ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="gpt-3.5-turbo"),
     prompt=chat_prompt,
     output_parser=CommaSeparatedListOutputParser()
 )
