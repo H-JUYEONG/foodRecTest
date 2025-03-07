@@ -35,7 +35,7 @@ wait = WebDriverWait(driver, 10)
 
 try:
     # 네이버 지도 접속
-    URL = 'https://map.naver.com/p/search/인하대%20음식점'
+    URL = 'https://map.naver.com/p/search/부산%20해운대%20음식점'
     driver.get(URL)
     time.sleep(3)  # 페이지 로딩 대기
 
