@@ -24,7 +24,7 @@ def search_restaurants(query):
             "region": "부산 해운대",
             "suitable_for": "가족",
             "capacity": "4-10인",
-            "signature": "생고기, 된장찌개",
+            "signature": "삼겹살, 된장찌개",
             "description": "단체석 있음, 가족 모임에 적합",
         },
         {
