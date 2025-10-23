@@ -96,7 +96,7 @@ restaurant_tool = Tool(
 
 # LLM 초기화
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="gpt-4.1",
     openai_api_key=OPENAI_API_KEY,
 )
 
