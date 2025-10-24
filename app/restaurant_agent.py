@@ -45,7 +45,7 @@ def generate_restaurant_recommendations(keywords):
     - 여행 테마: {', '.join(keywords['themes'])}
 
     실제 식당 데이터:
-    {json.dumps(restaurants_data, ensure_ascii=False, indent=2)}
+    {json.dumps(restaurants_data, ensure_ascii=False, indent=3)}
 
     위 실제 식당 데이터를 기반으로 {keywords['location']} 지역의 식당을 추천해주세요.
     제공된 실제 식당 정보만 사용하여 추천해주세요.
