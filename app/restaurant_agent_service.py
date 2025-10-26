@@ -163,7 +163,7 @@ class RestaurantFilterTool(BaseTool):
 restaurant_filter_agent = Agent(
     role="맛집 필터링 전문가",
     goal="맛집 후보 리스트 중 조건에 맞는 식당만을 선별한다.",
-    backstory="나는 데이터 필터링 전문가로, 후보 리스트에서 평점과 리뷰 수 기준으로 유효한 식당을 선별할 수 있다. 정확한 리스트를 추출한다.",
+    backstory="나는 데이터 필터링 전문가로, 후보 리스트에서 평점과 리뷰 수 기준으로 유효한 식당을 선별할 수 있다.",
     tools=[RestaurantFilterTool()],
     llm=LLM(model="gpt-4o-mini", temperature=0, api_key=OPENAI_API_KEY),
     verbose=True,
