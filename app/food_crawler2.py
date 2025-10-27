@@ -154,7 +154,7 @@ try:
                     time.sleep(1)
                     # JavaScript로 클릭 시도 (더 안정적)
                     driver.execute_script("arguments[0].click();", next_page_button)
-                    time.sleep(3)  # 페이지 로드 대기
+                    time.sleep(1)  # 페이지 로드 대기
                 else:
                     print(f"페이지 {current_page + 1} 버튼을 찾을 수 없습니다.")
                     break
