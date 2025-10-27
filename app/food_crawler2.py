@@ -92,7 +92,7 @@ def collect_page_data(page_num):
 
             # 다음 가게를 위해 검색 결과 프레임으로 전환
             switch_left()
-            time.sleep(1)
+            time.sleep(3)
 
         except Exception as e:
             print(f"가게 정보 수집 중 오류: {e}")
