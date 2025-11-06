@@ -111,7 +111,7 @@ options.add_argument(
 )
 
 driver = webdriver.Chrome(options=options)
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 15)
 
 try:
     # 네이버 지도 접속
